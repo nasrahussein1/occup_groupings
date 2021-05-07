@@ -10,3 +10,4 @@ filelock
 typer
 sh
 boto3
+sklearn

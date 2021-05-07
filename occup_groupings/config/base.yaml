@@ -1,0 +1,5 @@
+tfidf_vectorisation:
+  params:
+    min_df: 0.08
+    max_df: 0.5
+    stop_words: "english"
