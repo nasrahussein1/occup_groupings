@@ -10,7 +10,7 @@ def get_occupations() -> pd.DataFrame:
     """Load occupations.
 
     Returns:
-        occupations data
+        dataframe: occupations data
     """
 
     s3 = boto3.client("s3")
@@ -22,7 +22,7 @@ def get_skills() -> pd.DataFrame:
     """Load skills.
 
     Returns:
-        ESCO skills data
+        dataframe: skills data
     """
     s3 = boto3.client("s3")
     obj = s3.get_object(Bucket="occup-groupings-nh", Key="data/raw/skills_en.csv")
@@ -33,7 +33,7 @@ def get_esco_occup_skills() -> pd.DataFrame:
     """Load esco_occup_skills.
 
     Returns:
-        ESCO occup_skills data
+        dataframe: ESCO occup_skills data
     """
 
     s3 = boto3.client("s3")
