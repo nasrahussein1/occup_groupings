@@ -7,7 +7,7 @@ import boto3
 
 
 def get_occupations() -> pd.DataFrame:
-    """Load occupations.
+    """Load occupations
 
     Returns:
         dataframe: occupations data
@@ -19,7 +19,7 @@ def get_occupations() -> pd.DataFrame:
 
 
 def get_skills() -> pd.DataFrame:
-    """Load skills.
+    """Load skills
 
     Returns:
         dataframe: skills data
@@ -30,7 +30,7 @@ def get_skills() -> pd.DataFrame:
 
 
 def get_esco_occup_skills() -> pd.DataFrame:
-    """Load esco_occup_skills.
+    """Load esco_occup_skills
 
     Returns:
         dataframe: ESCO occup_skills data
