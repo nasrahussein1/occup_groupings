@@ -1,4 +1,3 @@
-# File: getters/inputs/esco_skills_occup.py
 """Data getters for ESCO data and skills and occup data
 """
 import pandas as pd
