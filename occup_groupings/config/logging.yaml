@@ -30,7 +30,7 @@ handlers:
     encoding: utf8
 
 loggers:
-  { { cookiecutter.repo_name } }:
+  occup_groupings:
     level: INFO
     handlers: [console, info_file_handler, error_file_handler]
     propagate: no
