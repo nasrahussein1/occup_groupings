@@ -13,6 +13,8 @@ def feature_bar_chart(df, occupation, feature):
     df: dataframe
     occupation: occupation
     feature: word in the corpus
+
+    return: bar chart
     """
     plt.style.use("ggplot")
 
@@ -30,6 +32,14 @@ def feature_bar_chart(df, occupation, feature):
 
 
 def plot_dendrogram(tier_1=None, tier_2=None):
+    """dendrogram to find optimal clusters
+
+    args:
+    tier_1: tier 1 cluster to filter for
+    tier_1: tier 2 cluster to filter for
+
+    return: dendrogram
+    """
 
     cluster_assignments = get_clusters()
 
