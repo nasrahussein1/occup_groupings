@@ -3,3 +3,10 @@ tfidf_vectorisation:
     min_df: 0.08
     max_df: 0.5
     stop_words: "english"
+
+clustering:
+  params:
+    n_clusters_tier_1: 9
+    n_clusters_tier_2: 3
+    affinity: "euclidean"
+    linkage: "ward"
