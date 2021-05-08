@@ -2,7 +2,7 @@
 
 ## Introduction
 
-###The Challenge
+### The Challenge
 
 There is currently no transparent skills mapping to identify occupations with adjacent skills that workers could easily transition to. While this is the case, worker career opportunities are limited and occupations may be understaffed due to perceived barriers to entry.
 
@@ -19,7 +19,7 @@ An alternative occupation classification was produced. The following methodology
 
 - Use hierarchical clustering to group together occupations which share these "meaningful" words to an extent which is statistically significant
 
-##Data Inputs
+## Data Inputs
 
 - ISCO occupations
 - Description of skills in the ESCO framework
