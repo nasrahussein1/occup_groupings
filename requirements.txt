@@ -11,3 +11,4 @@ typer
 sh
 boto3
 sklearn
+joblib
