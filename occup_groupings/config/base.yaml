@@ -4,7 +4,7 @@ tfidf_vectorisation:
     max_df: 0.5
     stop_words: "english"
 
-culstering:
+clustering:
   params:
     n_clusters_tier_1: 9
     n_clusters_tier_2: 3
