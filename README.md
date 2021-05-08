@@ -2,7 +2,9 @@
 
 ## Introduction
 
+
 ### The Challenge
+
 
 There is currently no transparent skills mapping to identify occupations with adjacent skills that workers could easily transition to. While this is the case, worker career opportunities are limited and occupations may be understaffed due to perceived barriers to entry.
 
