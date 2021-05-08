@@ -18,6 +18,11 @@ if __name__ == "__main__":
     tier_1_clusters["tier_1_clusters"] = y_hc
     tier_2_clusters = tier_2_clustering(tier_1_clusters)
     tier_3_clusters = tier_3_clustering(tier_2_clusters)
+    write_to_s3(
+        tier_3_clusters,
+        "occup-groupings-nh",
+        "data/clustering_output/tier_3_clusters.csv",
+    )
     final_occup_hierarchy = tier_3_clusters[
         [
             "occupation",
